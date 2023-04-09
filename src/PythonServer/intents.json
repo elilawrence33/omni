@@ -1,0 +1,103 @@
+{"intents": [
+    {
+        "tag": "greetings", 
+        "patterns": ["hi", "hello", "how are you?", "hey", "howdy", "what's up?", "good day", "greetings"],
+        "responses": ["Hello there!", "Hi!", "How can I help you?", "How can I assist you?", "Hey"] 
+    }, 
+    {
+        "tag": "goodbye", 
+        "patterns": ["goodbye", "bye", "see you later", "have a good day", "talk to you later"],
+        "responses": ["Hope you found me helpful, goodbye!", "Goodbye!", "Please return if you have any more questions!", "Bye bye!", "Have a good one!", "See you later!"]
+    },
+    {
+        "tag": "thanks", 
+        "patterns": ["thanks", "thank you", "you are very helpful"],
+        "responses": ["I am happy to help!", "I am glad I can assist."]
+    }, 
+    { 
+        "tag": "age", 
+        "patterns": ["how old are you?", "what is your age?", "when were you born?"],
+        "responses": ["I was born in February 2023, but I do not age."]
+    }, 
+    {
+        "tag": "hours", 
+        "patterns": ["what are your hours?", "how late are you open?", "when do you open?", "open"],
+        "responses": ["The clinic is open 8:00am - 5:00pm on Mondays through Fridays and closed Saturday through Sunday."]
+    }, 
+    {
+        "tag": "name", 
+        "patterns": ["what is your name?", "what's your name?", "who are you?", "are you a doctor?", "what can I call you?", "what's your title?"],
+        "responses": ["My name is Omni!", "I am Omni, your friendly chatbot :)", "My name is Omni, nice to meet you!", "My creator calls me Omni :)"]
+    },
+    {
+        "tag": "assist", 
+        "patterns": ["can you help me with something?", "are you able to assist me?", "could you help me?", "please help", "help me please"],
+        "responses": ["I will try my best to answer any of your questions :)", "I am happy to assist you with any questions you may have!"]
+    },
+    {
+        "tag": "appointment", 
+        "patterns": ["can I set up an appointment?", "I need to schedule something with my doctor", "appointment", "can you set up an appointment?"],
+        "responses": ["Of course, I am happy to help! You will need to fill out the patient forms to create an appointment.", "I think I can help you with that, you will need to fill out the patient forms to create an appointment.", "Yes, let me assist you with this, you will need to fill out the patient forms to create an appointment."]
+    },
+    { 
+        "tag": "cancellation", 
+        "patterns": ["what are your cancellation policies?", "can I cancel at anytime?", "when can I cancel my appointment?"],
+        "responses": ["We need 2 hour notice before any cancellation to prevent a cancellation fee."]
+    },
+    {
+        "tag": "cancellationFee", 
+        "patterns": ["how much is the cancellation fee?", "cancellation fee?", "how much is your cancellations?", "how much does it cost to cancel?"],
+        "responses": ["Any cancellations that occur within 2 hours before the appoitment will result in a $25 fee.", "Per the cancellation policy, cancellations can result in $25 fees."]
+
+    },
+    {
+        "tag": "forms", 
+        "patterns": ["how do I fill out the patient forms?", "where do I go to fill out the forms?","where can I fill out the forms to set up an appointment?", "where can I find forms to fill out?", "I need the patient forms","can I fill out the patient forms?"],
+        "responses": ["All patient forms can be completed in the appointment tab. To the best of your knowledge, please provide accurate information."]
+    },
+    {
+        "tag": "labResults",
+        "patterns": ["where are my lab results?", "I need my lab results.", "where can I find lab results?", "can you give me my lab results?"], 
+        "responses": ["Lab results are typically emailed to the email address that is associated with your account. Additionally they can be found in the account page of the website.", "All lab results are found within your account on the account page or they are sent to you email address that is associated with your account."]
+    },
+    {
+        "tag": "directions", 
+        "patterns": ["where are you located?", "where is your clinic located?", "what is your location?", "can you give me directions?", "I need directions to your clinic."], 
+        "responses": ["We are currently located at: 1234 East Earth Avenue, Colorado Springs, Colorado, 80920.", "Our current location is: 1234 East Earth Avenue, Colorado Springs, Colorado, 80920."]
+    },
+    {
+        "tag": "doctorInformation",
+        "patterns": ["doctor information", "where can I find a list of doctors?", "I want to find a doctor for me", "can I see a list of available doctors?", "where is your staff information?"],
+        "responses": ["All staff/doctor information can be found in the Meet the Team tab of the website", "All staff and doctor related information can be found in the Meet the Team tab."]
+    },
+    {
+        "tag": "covid", 
+        "patterns": ["how do you manage covid cases?", "what are your covid policies?", "how many covid cases do you currently have?"], 
+        "responses": ["Public safety is our top priority which is why we follow all CDC guidlines. For more information please visit the COVID information center on our main website."]
+    },
+    {
+        "tag": "insurance", 
+        "patterns": ["what insurance do you take?", "what insurance do you accept?"],
+        "responses": ["The insurance providers that we accept are: Acme1, Acme2, and Acme3. Please visit our insurance page for more info."]
+    }, 
+    {
+        "tag": "contact-info",
+        "patterns": ["can you give me a phone number to call?", "i want to talk to a human.", "I want to talk to a real person.", "can you give me contact information?", "give me a phone number", "who can I contact?"], 
+        "responses": ["To talk to an employee you can dial +1(888)-123-FAKE or email at acme@clinic.com. For contact information regarding your doctor, please visit your account page."]
+    }, 
+    { 
+        "tag": "billing", 
+        "patterns": ["where can I find my account balance?", "how much do I owe?", "where can I pay my bill?", "where can I see my bills?"], 
+        "responses": ["Your account balance can be found in your account page under the billing tab.", "For you current balance and payment methods please visit the billing tab in your account page."]
+    }, 
+    { 
+        "tag": "password-reset", 
+        "patterns": ["password reset", "I need to reset my password", "can you reset my password?", "reset my password"], 
+        "responses": ["A password reset has been sent to the email address associated with your account.", "I just sent a password reset link to your email address."]
+    }, 
+    { 
+        "tag": "patient-account", 
+        "patterns": ["where can I find my account?", "how do I find my patient account?", "patient account", "my account", "where is my account?"], 
+        "responses": ["Upon registration, all information relating to you can be found in the My Account page in the navigation menu."]
+    }
+]}
