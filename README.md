@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Omni - Web-based Chatbot
 
 Omni is a very lightweight chatbot system that uses a deep learning algorithm that is trained to answer the users questions. 
 The domain of question it is particularlly good at are questions regarding the clinic that it was trained to support. It is 
