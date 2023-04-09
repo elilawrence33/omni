@@ -5,7 +5,8 @@ from flask_cors import CORS
 import random
 import os 
 print(os.getcwd())
-os.chdir('omni/src/PythonServer')
+# Must change the directory because the 'npm start' script starts from /omni directory
+os.chdir('src/PythonServer')
 
 from chatbot import *
 
